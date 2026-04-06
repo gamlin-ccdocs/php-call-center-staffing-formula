@@ -1,0 +1,32 @@
+{
+    "name": "vicistack/call-center-staffing-formula",
+    "description": "The Call Center Staffing Formula: Erlang C vs Real-World Math",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "vicidial",
+        "asterisk",
+        "call-center",
+        "voip",
+        "predictive-dialer",
+        "call",
+        "center",
+        "staffing",
+        "formula"
+    ],
+    "homepage": "https://vicistack.com/blog/call-center-staffing-formula/",
+    "authors": [
+        {
+            "name": "ViciStack",
+            "homepage": "https://vicistack.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ViciStack\\CallCenterStaffingFormula\\": "src/"
+        }
+    }
+}
